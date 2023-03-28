@@ -1,0 +1,77 @@
+.calculator-wrapper {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.calculator-wrapper h1 {
+    font-family: monospace, monospace;
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #666;
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 8px #333,
+                4px 7px #333,
+                3px 6px #333,
+                3px 5px #333,
+                2px 4px #333,
+                2px 3px #333,
+                1px 2px #333,
+                1px 1px #333;
+  }
+  
+  .keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .keys button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    box-shadow: 2px 4px #c1c1c1,
+                2px 3px #c1c1c1,
+                1px 2px #c1c1c1,
+                1px 1px #c1c1c1;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .keys button:hover {
+    box-shadow: 1px 2px #c1c1c1,
+                1px 1px #c1c1c1;
+    transform: translateY(2px) translateX(1px);
+  }
+  
+  .keys button:active {
+    background-color: #ddd;
+    box-shadow: none;
+    transform: translateY(4px) translateX(2px);
+  }
+  
+  #display {
+    font-family: monospace, monospace;
+    width: 290px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    margin-bottom: 25px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: inset 2px 4px #c1c1c1;
+  }
+  
